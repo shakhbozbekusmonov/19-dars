@@ -1,0 +1,25 @@
+
+
+.site-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #080;
+}
+
+.sitenav{
+    &__list{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item{
+        &:not(:last-child){
+            margin-right: 20px;
+        }
+    }
+
+    &__link{
+        font-size: 20px;
+        color: #fff;
+    }
+}
